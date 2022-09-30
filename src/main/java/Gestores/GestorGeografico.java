@@ -7,7 +7,7 @@ import Dominio.Provincia;
 import java.sql.*;
 import java.util.*;
 
-
+//Comentario Ejercicio 2f
 public class GestorGeografico {
     private static GestorGeografico instanciaGGeografico = null;
     
