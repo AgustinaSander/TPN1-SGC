@@ -6,6 +6,8 @@ Grupo N5:
 - Sarina, Araceli
 - Vergara, Agustina
 
+[![Diagrama-ISW-TP1-drawio.png](https://i.postimg.cc/d3vnDdQY/Diagrama-ISW-TP1-drawio.png)](https://postimg.cc/k61Wp2t1)
+
 2b) Al subir un proyecto a Github, generalmente se cuenta con una gran cantidad de archivos de configuraciones locales o dependencias del proyecto. Si no es necesario subirlos al repositorio externo se puede optar por crear un archivo .gitignore y definir todos los archivos que se desean ignorar a la hora de hacer un push del proyecto.
 
 2g) Siguiendo Gitflow, para llevar un release al entorno productivo primero se debe hacer un PR de develop a master para mergear las ramas, pudiendo especificar un tag con el número de versión del release. Finalmente se debe hacer un backport de master a develop por si se realizaron hotfix.
